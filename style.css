@@ -11,6 +11,7 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: 100%;
+    transition: 0.3s;
 }
 header{
     background-color: lightblue;
@@ -66,3 +67,8 @@ input textarea{
  button :hover{
     background:aqua;
  }
+ .dark-mode{
+    background-color: black;
+    color: white;
+ }
+
